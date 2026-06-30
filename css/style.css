@@ -8,19 +8,19 @@
 }
 @font-face {
   font-family: Estedad-Black;
-  src: url(/assets/fonts/Estedad-Black.ttf);
+  src: url(../assets/fonts/Estedad-Black.ttf);
 }
 @font-face {
   font-family: Estedad-Bold;
-  src: url(/assets/fonts/Estedad-Bold.ttf);
+  src: url(../assets/fonts/Estedad-Bold.ttf);
 }
 @font-face {
   font-family: peyda-medium;
-  src: url(/assets/fonts/peyda-medium_5zke.ttf);
+  src: url(../assets/fonts/peyda-medium_5zke.ttf);
 }
 @font-face {
   font-family: dana-fanum;
-  src: url(/assets/fonts/dana-fanum-bold.woff);
+  src: url(../assets/fonts/dana-fanum-bold.woff);
 }
 * {
   margin: 0;
