@@ -139,7 +139,10 @@ body::before {
   transform: translateX(50px);
   animation: slideIn 1s forwards 0.2s;
 }
-
+.hero-content h2 span{
+  color: var(--primary);
+  display: block;
+}
 .hero-content h1 {
   font-size: 3rem;
   color: #ffffff;
@@ -865,24 +868,49 @@ footer {
   #header .nav {
     display: none;
   }
-  .btn-resume {
+  .btn-resume1 {
     display: none;
   }
   #cta {
     padding: 40px 10px;
   }
-
-
   .btn-cta {
     width: 80%;
     padding: 12px 0;
     display: block;
     margin: auto;
   }
+  .hero-bg{
+    width: 230px;
+    height: 230px;
+  }
+  .hero-image img{
+    width: 200px;
+    height: 200px;
+  }
 
+  #hero{
+    width: 80% ;
+    margin: auto;
+    text-align: center;
+  }
+  .hero-content h2{
+    font-size: 1.2rem;
+  }
   .socials a {
     margin: 0 5px;
   }
+}
+.hero-content #typing {
+  font-size: 1.4rem;
+}
+.hero-content p{
+  font-size: 0.8rem;
+}
+.hero-buttons{
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
 }
 #about {
   padding: 50px 10px;
@@ -893,11 +921,11 @@ footer {
 }
 
 .about-header h2 {
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 
-.about-box p {
-  font-size: 1.4rem;
+.about-box .p {
+  font-size: 0.9rem;
   text-align: justify;
   text-align-last: center;
 }
@@ -909,7 +937,7 @@ footer {
   color: var(--muted);
   font-size: 14px;
   line-height: 2;
-  margin: 80px;
+  margin: 50px;
 }
 
 .blog-box {
